@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16.0)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(FSE_20221_Trabalho_3)
+
+set(COMPONENT_ADD_INCLUDEDIRS ".")

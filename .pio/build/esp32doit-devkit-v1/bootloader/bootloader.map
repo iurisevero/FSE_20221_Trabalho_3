@@ -66,27 +66,27 @@ Archive member included to satisfy reference by file (symbol)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o) (mpu_hal_set_region_access)
 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o) (cpu_hal_set_watchpoint)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o) (__divdi3)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o) (__udivdi3)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o) (_global_impure_ptr)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o) (memcmp)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o) (memcpy)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o) (memset)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o) (strcspn)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o) (strlen)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o) (strncpy)
-/home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+/home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
                               .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o) (strstr)
 
 Allocating common symbols
@@ -97,35 +97,35 @@ bootloader_image_hdr
 
 Discarded input sections
 
- .literal       0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .text          0x0000000000000000        0x6 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .debug_line    0x0000000000000000       0x89 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .debug_info    0x0000000000000000       0x26 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .debug_abbrev  0x0000000000000000       0x14 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .literal       0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .text          0x0000000000000000        0x6 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .debug_line    0x0000000000000000       0x89 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .debug_info    0x0000000000000000       0x26 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .debug_abbrev  0x0000000000000000       0x14 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .debug_str     0x0000000000000000       0xcc /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .xt.lit        0x0000000000000000        0x8 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .xt.prop       0x0000000000000000       0x24 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .text          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
- .xt.prop       0x0000000000000000       0x30 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
- .literal       0x0000000000000000       0x44 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .fini.literal  0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .init.literal  0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .text          0x0000000000000000       0xa6 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .data          0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .bss           0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .eh_frame      0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .debug_str     0x0000000000000000       0xcc /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .xt.lit        0x0000000000000000        0x8 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .xt.prop       0x0000000000000000       0x24 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .text          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+ .xt.prop       0x0000000000000000       0x30 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+ .literal       0x0000000000000000       0x44 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .fini.literal  0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .init.literal  0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .text          0x0000000000000000       0xa6 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .data          0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .bss           0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
  .tm_clone_table
-                0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .fini          0x0000000000000000        0x6 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .init          0x0000000000000000        0x6 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .xt.lit        0x0000000000000000       0x18 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
- .xt.prop       0x0000000000000000      0x15c /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+                0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .fini          0x0000000000000000        0x6 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .init          0x0000000000000000        0x6 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .xt.lit        0x0000000000000000       0x18 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .xt.prop       0x0000000000000000      0x15c /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
  .literal.__getreent
                 0x0000000000000000        0x4 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
  .text          0x0000000000000000        0x0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
@@ -468,8 +468,8 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000      0x1cd .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
  .debug_aranges
                 0x0000000000000000       0x18 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
- .debug_line    0x0000000000000000      0x356 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
- .debug_str     0x0000000000000000      0x8c9 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
+ .debug_line    0x0000000000000000      0x36e .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
+ .debug_str     0x0000000000000000      0x8d7 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
  .comment       0x0000000000000000       0x2d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
  .xt.prop       0x0000000000000000       0x18 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a(gpio_periph.o)
  .literal.esp_rom_spiflash_read_statushigh
@@ -562,168 +562,168 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x40 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
  .debug_ranges  0x0000000000000000       0xa8 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
- .debug_line    0x0000000000000000      0x7d3 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
- .debug_str     0x0000000000000000     0x12ce .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
+ .debug_line    0x0000000000000000      0x7f1 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
+ .debug_str     0x0000000000000000     0x12dc .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
  .comment       0x0000000000000000       0x2d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
  .xt.lit        0x0000000000000000        0x8 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
  .xt.prop       0x0000000000000000      0x138 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
- .literal       0x0000000000000000        0x8 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .text          0x0000000000000000       0x26 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .debug_frame   0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .debug_info    0x0000000000000000      0xb01 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .debug_abbrev  0x0000000000000000      0x1b1 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .debug_loc     0x0000000000000000       0x25 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .literal       0x0000000000000000        0x8 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .text          0x0000000000000000       0x26 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .debug_info    0x0000000000000000      0xb01 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .debug_abbrev  0x0000000000000000      0x1b1 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .debug_loc     0x0000000000000000       0x25 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .debug_line    0x0000000000000000      0x2e2 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .debug_str     0x0000000000000000      0x6d4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .comment       0x0000000000000000       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .xt.lit        0x0000000000000000        0x8 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .xt.prop       0x0000000000000000       0x30 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .text          0x0000000000000000      0x2aa /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .debug_frame   0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .eh_frame      0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .debug_info    0x0000000000000000     0x114a /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .debug_abbrev  0x0000000000000000      0x28e /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .debug_loc     0x0000000000000000      0xb09 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .debug_line    0x0000000000000000      0x2e2 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .debug_str     0x0000000000000000      0x6d4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .comment       0x0000000000000000       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .xt.lit        0x0000000000000000        0x8 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .xt.prop       0x0000000000000000       0x30 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .text          0x0000000000000000      0x2aa /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .eh_frame      0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .debug_info    0x0000000000000000     0x114a /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .debug_abbrev  0x0000000000000000      0x28e /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .debug_loc     0x0000000000000000      0xb09 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .debug_ranges  0x0000000000000000       0xa0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .debug_line    0x0000000000000000      0xadc /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .debug_str     0x0000000000000000      0x74d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .comment       0x0000000000000000       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .xt.prop       0x0000000000000000      0x1bc /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .text          0x0000000000000000      0x26e /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .debug_frame   0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .eh_frame      0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .debug_info    0x0000000000000000     0x10fc /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .debug_abbrev  0x0000000000000000      0x27a /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .debug_loc     0x0000000000000000      0xa8a /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .debug_ranges  0x0000000000000000       0xa0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .debug_line    0x0000000000000000      0xadc /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .debug_str     0x0000000000000000      0x74d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .comment       0x0000000000000000       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .xt.prop       0x0000000000000000      0x1bc /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .text          0x0000000000000000      0x26e /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000000000     0x10fc /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000000000      0x27a /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000000000      0xa8a /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .debug_ranges  0x0000000000000000       0xa0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .debug_line    0x0000000000000000      0xa33 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .debug_str     0x0000000000000000      0x74e /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .comment       0x0000000000000000       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .xt.prop       0x0000000000000000      0x1a4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .text          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .bss           0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .debug_info    0x0000000000000000      0x915 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .debug_abbrev  0x0000000000000000      0x169 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000000       0xa0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000000000      0xa33 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000000000      0x74e /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000000       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .xt.prop       0x0000000000000000      0x1a4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .debug_info    0x0000000000000000      0x915 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000000      0x169 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
  .debug_aranges
-                0x0000000000000000       0x18 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .debug_line    0x0000000000000000      0x101 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .debug_str     0x0000000000000000      0x59c /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .comment       0x0000000000000000       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .text          0x0000000000000000       0x52 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .debug_frame   0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .debug_info    0x0000000000000000      0x9ca /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .debug_abbrev  0x0000000000000000      0x1af /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .debug_loc     0x0000000000000000      0x17f /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+                0x0000000000000000       0x18 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000000000      0x101 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .debug_str     0x0000000000000000      0x59c /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .text          0x0000000000000000       0x52 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000000000      0x9ca /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000000000      0x1af /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000000000      0x17f /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .debug_line    0x0000000000000000      0x2e7 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .debug_str     0x0000000000000000      0x5ac /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .comment       0x0000000000000000       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .xt.prop       0x0000000000000000       0x84 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .literal       0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .text          0x0000000000000000      0x135 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .debug_line    0x0000000000000000      0x355 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .debug_info    0x0000000000000000       0x26 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .debug_abbrev  0x0000000000000000       0x14 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000000000      0x2e7 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .debug_str     0x0000000000000000      0x5ac /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000000       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .xt.prop       0x0000000000000000       0x84 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .literal       0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000      0x135 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000000000      0x355 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000000000       0x26 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .debug_str     0x0000000000000000       0xe4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .xt.prop       0x0000000000000000      0x15c /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .literal       0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .text          0x0000000000000000       0x74 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .debug_line    0x0000000000000000      0x18c /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .debug_info    0x0000000000000000       0x26 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .debug_abbrev  0x0000000000000000       0x14 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .debug_str     0x0000000000000000       0xe4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .xt.prop       0x0000000000000000      0x15c /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .literal       0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000       0x74 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000000000      0x18c /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .debug_info    0x0000000000000000       0x26 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .debug_str     0x0000000000000000       0xe4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .xt.prop       0x0000000000000000       0xd8 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .text          0x0000000000000000       0x2b /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .debug_frame   0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .debug_info    0x0000000000000000      0x979 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .debug_abbrev  0x0000000000000000      0x1b9 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .debug_loc     0x0000000000000000       0x83 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .debug_str     0x0000000000000000       0xe4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .xt.prop       0x0000000000000000       0xd8 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000       0x2b /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .debug_info    0x0000000000000000      0x979 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .debug_abbrev  0x0000000000000000      0x1b9 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .debug_loc     0x0000000000000000       0x83 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .debug_line    0x0000000000000000      0x29a /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .debug_str     0x0000000000000000      0x5ae /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .comment       0x0000000000000000       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .xt.prop       0x0000000000000000       0x90 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .literal       0x0000000000000000        0xc /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .text          0x0000000000000000       0x63 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .debug_line    0x0000000000000000      0x168 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .debug_info    0x0000000000000000       0x26 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .debug_abbrev  0x0000000000000000       0x14 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .debug_line    0x0000000000000000      0x29a /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .debug_str     0x0000000000000000      0x5ae /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .comment       0x0000000000000000       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .xt.prop       0x0000000000000000       0x90 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .literal       0x0000000000000000        0xc /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .text          0x0000000000000000       0x63 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000000000      0x168 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000000000       0x26 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .debug_str     0x0000000000000000       0xe4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .xt.lit        0x0000000000000000        0x8 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .xt.prop       0x0000000000000000       0xc0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .literal       0x0000000000000000        0xc /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .text          0x0000000000000000      0x113 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .debug_line    0x0000000000000000      0x2ef /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .debug_info    0x0000000000000000       0x26 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .debug_abbrev  0x0000000000000000       0x14 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .debug_str     0x0000000000000000       0xe4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .xt.lit        0x0000000000000000        0x8 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .xt.prop       0x0000000000000000       0xc0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .literal       0x0000000000000000        0xc /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .text          0x0000000000000000      0x113 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .debug_line    0x0000000000000000      0x2ef /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .debug_info    0x0000000000000000       0x26 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .debug_str     0x0000000000000000       0xe5 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .xt.lit        0x0000000000000000        0x8 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .xt.prop       0x0000000000000000      0x1a4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .text          0x0000000000000000       0x36 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .debug_frame   0x0000000000000000       0x28 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .debug_info    0x0000000000000000      0x979 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .debug_abbrev  0x0000000000000000      0x1b9 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .debug_loc     0x0000000000000000       0x44 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .debug_str     0x0000000000000000       0xe5 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .xt.lit        0x0000000000000000        0x8 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .xt.prop       0x0000000000000000      0x1a4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .text          0x0000000000000000       0x36 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .debug_info    0x0000000000000000      0x979 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .debug_abbrev  0x0000000000000000      0x1b9 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .debug_loc     0x0000000000000000       0x44 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
  .debug_aranges
-                0x0000000000000000       0x20 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .debug_line    0x0000000000000000      0x2b8 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .debug_str     0x0000000000000000      0x5ac /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .comment       0x0000000000000000       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .xt.prop       0x0000000000000000       0x78 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .literal       0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .init.literal  0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .text          0x0000000000000000       0x16 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .eh_frame      0x0000000000000000        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+                0x0000000000000000       0x20 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .debug_line    0x0000000000000000      0x2b8 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .debug_str     0x0000000000000000      0x5ac /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .comment       0x0000000000000000       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .xt.prop       0x0000000000000000       0x78 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .literal       0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .init.literal  0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .text          0x0000000000000000       0x16 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
  .tm_clone_table
-                0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .init          0x0000000000000000        0x6 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .xt.lit        0x0000000000000000       0x10 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .xt.prop       0x0000000000000000       0x84 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .text          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
- .data          0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
- .bss           0x0000000000000000        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
- .init          0x0000000000000000        0x2 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
- .fini          0x0000000000000000        0x2 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
- .xt.prop       0x0000000000000000       0x30 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+                0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .init          0x0000000000000000        0x6 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .xt.lit        0x0000000000000000       0x10 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .xt.prop       0x0000000000000000       0x84 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .text          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+ .data          0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+ .bss           0x0000000000000000        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+ .init          0x0000000000000000        0x2 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+ .fini          0x0000000000000000        0x2 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+ .xt.prop       0x0000000000000000       0x30 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
 
 Memory Configuration
 
@@ -735,9 +735,9 @@ dram_seg         0x000000003fff0000 0x0000000000010000 rw
 
 Linker script and memory map
 
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
 START GROUP
 LOAD .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a
 LOAD .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a
@@ -753,14 +753,14 @@ LOAD .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/soc/libsoc.a
 LOAD .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/spi_flash/libspi_flash.a
 LOAD .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/xtensa/libxtensa.a
 END GROUP
-LOAD /home/iuri/.platformio/packages/framework-espidf/components/xtensa/esp32/libxt_hal.a
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libnosys.a
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
-LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+LOAD /home/sudjoao/.platformio/packages/framework-espidf/components/xtensa/esp32/libxt_hal.a
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libnosys.a
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+LOAD /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
                 0x000000003ff40000                PROVIDE (UART0 = 0x3ff40000)
                 0x000000003ff42000                PROVIDE (SPI1 = 0x3ff42000)
                 [!provide]                        PROVIDE (SPI0 = 0x3ff43000)
@@ -3307,7 +3307,7 @@ LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtens
  *libefuse.a:*.*(.literal .text .literal.* .text.*)
  *(.fini.literal)
  *(.fini)
- .fini          0x000000004007b9c0        0x3 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+ .fini          0x000000004007b9c0        0x3 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
                 0x000000004007b9c0                _fini
  *(.gnu.version)
                 0x000000004007b9c3                _loader_text_end = ABSOLUTE (.)
@@ -3317,7 +3317,7 @@ LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtens
  *(.entry.text)
  *(.init.literal)
  *(.init)
- .init          0x0000000040080400        0x3 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+ .init          0x0000000040080400        0x3 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
                 0x0000000040080400                _init
                 0x0000000040080403                _stext = .
                 0x0000000040080403                _text_start = ABSOLUTE (.)
@@ -3664,18 +3664,18 @@ LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtens
  *fill*         0x000000003fff19ed        0x3 
                 0x000000003fff19f0                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
- .ctors         0x000000003fff19f0        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .ctors         0x000000003fff19f0        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
- .ctors         0x000000003fff19f4        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .ctors         0x000000003fff19f4        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
                 0x000000003fff19f8                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
- .dtors         0x000000003fff19f8        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .dtors         0x000000003fff19f8        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
- .dtors         0x000000003fff19fc        0x4 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .dtors         0x000000003fff19fc        0x4 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
                 0x000000003fff19fc                __DTOR_END__
                 0x000000003fff1a00                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
@@ -3702,9 +3702,9 @@ LOAD /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtens
 OUTPUT(.pio/build/esp32doit-devkit-v1/bootloader.elf elf32-xtensa-le)
 
 .xtensa.info    0x0000000000000000       0x38
- .xtensa.info   0x0000000000000000       0x38 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .xtensa.info   0x0000000000000000       0x38 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
  .xtensa.info   0x0000000000000038        0x0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
  .xtensa.info   0x0000000000000038        0x0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .xtensa.info   0x0000000000000038        0x0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.o)
@@ -3738,22 +3738,22 @@ OUTPUT(.pio/build/esp32doit-devkit-v1/bootloader.elf elf32-xtensa-le)
  .xtensa.info   0x0000000000000038        0x0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
  .xtensa.info   0x0000000000000038        0x0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(mpu_hal.o)
  .xtensa.info   0x0000000000000038        0x0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(cpu_hal.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
- .xtensa.info   0x0000000000000038        0x0 /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .xtensa.info   0x0000000000000038        0x0 /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtn.o
 
 .comment        0x0000000000000000       0x2c
- .comment       0x0000000000000000       0x2c /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+ .comment       0x0000000000000000       0x2c /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
                                          0x2d (size before relaxing)
  .comment       0x000000000000002c       0x2d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
  .comment       0x000000000000002c       0x2d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
@@ -3786,7 +3786,7 @@ OUTPUT(.pio/build/esp32doit-devkit-v1/bootloader.elf elf32-xtensa-le)
  .comment       0x000000000000002c       0x2d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .comment       0x000000000000002c       0x2d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
  .comment       0x000000000000002c       0x2d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(mpu_hal.o)
- .comment       0x000000000000002c       0x2d /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+ .comment       0x000000000000002c       0x2d /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
 
 .debug_frame    0x0000000000000000     0x1300
  .debug_frame   0x0000000000000000       0x40 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
@@ -4013,102 +4013,102 @@ OUTPUT(.pio/build/esp32doit-devkit-v1/bootloader.elf elf32-xtensa-le)
  .debug_ranges  0x00000000000013f8      0x148 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
  .debug_ranges  0x0000000000001540       0x28 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(mpu_hal.o)
 
-.debug_line     0x0000000000000000    0x17d2c
- .debug_line    0x0000000000000000      0x71d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
- .debug_line    0x000000000000071d     0x114e .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_line    0x000000000000186b     0x1d49 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x00000000000035b4     0x2305 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x00000000000058b9     0x2531 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000007dea      0x843 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x000000000000862d      0x111 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console_loader.o)
- .debug_line    0x000000000000873e      0x5d5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_panic.o)
- .debug_line    0x0000000000008d13      0x87a .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x000000000000958d       0xb3 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_soc.o)
- .debug_line    0x0000000000009640     0x19ff .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_esp32.o)
- .debug_line    0x000000000000b03f      0xc04 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common_loader.o)
- .debug_line    0x000000000000bc43      0x673 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_init.o)
- .debug_line    0x000000000000c2b6      0x46b .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_mem.o)
- .debug_line    0x000000000000c721      0x5c4 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x000000000000cce5      0x828 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random_esp32.o)
- .debug_line    0x000000000000d50d      0xbd2 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash_config_esp32.o)
- .debug_line    0x000000000000e0df      0x4dc .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_efuse_esp32.o)
- .debug_line    0x000000000000e5bb      0xac6 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_line    0x000000000000f081      0x572 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console.o)
- .debug_line    0x000000000000f5f3      0x7fb .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o)
- .debug_line    0x000000000000fdee     0x1f5d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.o)
- .debug_line    0x0000000000011d4b      0xbbb .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.o)
- .debug_line    0x0000000000012906      0xb27 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_init.o)
- .debug_line    0x000000000001342d      0xa9f .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.o)
- .debug_line    0x0000000000013ecc       0xe5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_sys.o)
- .debug_line    0x0000000000013fb1      0x4e9 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
- .debug_line    0x000000000001449a      0x4c3 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/log/liblog.a(log_noos.o)
- .debug_line    0x000000000001495d     0x1a0c .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x0000000000016369     0x157d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
- .debug_line    0x00000000000178e6      0x446 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(mpu_hal.o)
+.debug_line     0x0000000000000000    0x18149
+ .debug_line    0x0000000000000000      0x741 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000000000000741     0x1181 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x00000000000018c2     0x1d76 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000003638     0x2338 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x0000000000005970     0x256a .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000007eda      0x864 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x000000000000873e      0x117 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console_loader.o)
+ .debug_line    0x0000000000008855      0x5f9 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_panic.o)
+ .debug_line    0x0000000000008e4e      0x898 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x00000000000096e6       0xb6 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_soc.o)
+ .debug_line    0x000000000000979c     0x1a38 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_esp32.o)
+ .debug_line    0x000000000000b1d4      0xc31 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common_loader.o)
+ .debug_line    0x000000000000be05      0x694 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_init.o)
+ .debug_line    0x000000000000c499      0x489 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_mem.o)
+ .debug_line    0x000000000000c922      0x5df .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x000000000000cf01      0x84c .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random_esp32.o)
+ .debug_line    0x000000000000d74d      0xbfc .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash_config_esp32.o)
+ .debug_line    0x000000000000e349      0x4f1 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_efuse_esp32.o)
+ .debug_line    0x000000000000e83a      0xafc .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x000000000000f336      0x593 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console.o)
+ .debug_line    0x000000000000f8c9      0x822 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o)
+ .debug_line    0x00000000000100eb     0x1f8a .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.o)
+ .debug_line    0x0000000000012075      0xbe5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.o)
+ .debug_line    0x0000000000012c5a      0xb45 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_init.o)
+ .debug_line    0x000000000001379f      0xac0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.o)
+ .debug_line    0x000000000001425f       0xe8 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_sys.o)
+ .debug_line    0x0000000000014347      0x504 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
+ .debug_line    0x000000000001484b      0x4de .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/log/liblog.a(log_noos.o)
+ .debug_line    0x0000000000014d29     0x1a27 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x0000000000016750     0x159b .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
+ .debug_line    0x0000000000017ceb      0x45e .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(mpu_hal.o)
 
-.debug_str      0x0000000000000000     0xa975
- .debug_str     0x0000000000000000      0xc57 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
-                                        0xd30 (size before relaxing)
- .debug_str     0x0000000000000c57     0x2be4 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                       0x3932 (size before relaxing)
- .debug_str     0x000000000000383b     0x2505 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                       0x2f8c (size before relaxing)
- .debug_str     0x0000000000005d40      0x98a .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                       0x4a97 (size before relaxing)
- .debug_str     0x00000000000066ca      0x6c5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                       0x2098 (size before relaxing)
- .debug_str     0x0000000000006d8f       0xd5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                        0x89a (size before relaxing)
- .debug_str     0x0000000000006e64       0x85 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console_loader.o)
-                                        0x202 (size before relaxing)
- .debug_str     0x0000000000006ee9       0x9f .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_panic.o)
-                                       0x1254 (size before relaxing)
- .debug_str     0x0000000000006f88      0x10c .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                                       0x12ac (size before relaxing)
- .debug_str     0x0000000000007094       0xb0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_soc.o)
-                                        0x1e0 (size before relaxing)
- .debug_str     0x0000000000007144      0x568 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_esp32.o)
-                                       0x5bbf (size before relaxing)
- .debug_str     0x00000000000076ac      0x1c6 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common_loader.o)
-                                       0x3526 (size before relaxing)
- .debug_str     0x0000000000007872      0x22e .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_init.o)
-                                       0x37ab (size before relaxing)
- .debug_str     0x0000000000007aa0       0xa2 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_mem.o)
-                                       0x11a1 (size before relaxing)
- .debug_str     0x0000000000007b42       0x8b .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                       0x11df (size before relaxing)
- .debug_str     0x0000000000007bcd      0xc05 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random_esp32.o)
-                                       0x45b6 (size before relaxing)
- .debug_str     0x00000000000087d2      0x119 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash_config_esp32.o)
-                                        0xd96 (size before relaxing)
- .debug_str     0x00000000000088eb       0xb2 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_efuse_esp32.o)
-                                        0x6f9 (size before relaxing)
- .debug_str     0x000000000000899d      0x2fc .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                       0x437e (size before relaxing)
- .debug_str     0x0000000000008c99      0x64a .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console.o)
-                                       0x3fdd (size before relaxing)
- .debug_str     0x00000000000092e3      0x1f2 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o)
-                                       0x3634 (size before relaxing)
- .debug_str     0x00000000000094d5      0x5f8 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.o)
-                                       0x43c8 (size before relaxing)
- .debug_str     0x0000000000009acd      0x11d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.o)
-                                       0x3c93 (size before relaxing)
- .debug_str     0x0000000000009bea       0xe0 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_init.o)
-                                       0x3722 (size before relaxing)
- .debug_str     0x0000000000009cca      0x172 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.o)
-                                       0x30d4 (size before relaxing)
- .debug_str     0x0000000000009e3c       0x86 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_sys.o)
+.debug_str      0x0000000000000000     0xa9dd
+ .debug_str     0x0000000000000000      0xc65 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
+                                        0xd3e (size before relaxing)
+ .debug_str     0x0000000000000c65     0x2be7 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                       0x3940 (size before relaxing)
+ .debug_str     0x000000000000384c     0x2508 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                       0x2f9a (size before relaxing)
+ .debug_str     0x0000000000005d54      0x98d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                       0x4aa5 (size before relaxing)
+ .debug_str     0x00000000000066e1      0x6c8 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                       0x20a6 (size before relaxing)
+ .debug_str     0x0000000000006da9       0xd8 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                        0x8a8 (size before relaxing)
+ .debug_str     0x0000000000006e81       0x88 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console_loader.o)
                                         0x210 (size before relaxing)
- .debug_str     0x0000000000009ec2       0x97 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
-                                       0x1044 (size before relaxing)
- .debug_str     0x0000000000009f59       0xa8 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/log/liblog.a(log_noos.o)
-                                       0x11e6 (size before relaxing)
- .debug_str     0x000000000000a001      0x496 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                                       0x2610 (size before relaxing)
- .debug_str     0x000000000000a497      0x41c .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
-                                       0x24eb (size before relaxing)
- .debug_str     0x000000000000a8b3       0xc2 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(mpu_hal.o)
-                                        0x6d6 (size before relaxing)
+ .debug_str     0x0000000000006f09       0xa2 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_panic.o)
+                                       0x1262 (size before relaxing)
+ .debug_str     0x0000000000006fab      0x10f .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                                       0x12ba (size before relaxing)
+ .debug_str     0x00000000000070ba       0xb3 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_soc.o)
+                                        0x1ee (size before relaxing)
+ .debug_str     0x000000000000716d      0x56b .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_esp32.o)
+                                       0x5bcd (size before relaxing)
+ .debug_str     0x00000000000076d8      0x1c9 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common_loader.o)
+                                       0x3534 (size before relaxing)
+ .debug_str     0x00000000000078a1      0x231 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_init.o)
+                                       0x37b9 (size before relaxing)
+ .debug_str     0x0000000000007ad2       0xa5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_mem.o)
+                                       0x11af (size before relaxing)
+ .debug_str     0x0000000000007b77       0x8e .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                       0x11ed (size before relaxing)
+ .debug_str     0x0000000000007c05      0xc08 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_random_esp32.o)
+                                       0x45c4 (size before relaxing)
+ .debug_str     0x000000000000880d      0x11c .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash_config_esp32.o)
+                                        0xda4 (size before relaxing)
+ .debug_str     0x0000000000008929       0xb5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_efuse_esp32.o)
+                                        0x707 (size before relaxing)
+ .debug_str     0x00000000000089de      0x2ff .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                       0x438c (size before relaxing)
+ .debug_str     0x0000000000008cdd      0x64d .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_console.o)
+                                       0x3feb (size before relaxing)
+ .debug_str     0x000000000000932a      0x1f5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o)
+                                       0x3642 (size before relaxing)
+ .debug_str     0x000000000000951f      0x5fb .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.o)
+                                       0x43d6 (size before relaxing)
+ .debug_str     0x0000000000009b1a      0x120 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.o)
+                                       0x3ca1 (size before relaxing)
+ .debug_str     0x0000000000009c3a       0xe3 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_init.o)
+                                       0x3730 (size before relaxing)
+ .debug_str     0x0000000000009d1d      0x175 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.o)
+                                       0x30e2 (size before relaxing)
+ .debug_str     0x0000000000009e92       0x89 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_sys.o)
+                                        0x21e (size before relaxing)
+ .debug_str     0x0000000000009f1b       0x9a .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
+                                       0x1052 (size before relaxing)
+ .debug_str     0x0000000000009fb5       0xab .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/log/liblog.a(log_noos.o)
+                                       0x11f4 (size before relaxing)
+ .debug_str     0x000000000000a060      0x499 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                       0x261e (size before relaxing)
+ .debug_str     0x000000000000a4f9      0x41f .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
+                                       0x24f9 (size before relaxing)
+ .debug_str     0x000000000000a918       0xc5 .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(mpu_hal.o)
+                                        0x6e4 (size before relaxing)
 
 Cross Reference Table
 
@@ -4136,12 +4136,12 @@ TIMERG1                                           .pio/build/esp32doit-devkit-v1
 UART0                                             .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
 UART1                                             .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
 UART2                                             .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
-_ITM_deregisterTMCloneTable                       /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
-_ITM_registerTMCloneTable                         /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
-__DTOR_END__                                      /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
-                                                  /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
-__TMC_END__                                       /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
-                                                  /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+_ITM_deregisterTMCloneTable                       /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+_ITM_registerTMCloneTable                         /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+__DTOR_END__                                      /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+                                                  /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+__TMC_END__                                       /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtend.o
+                                                  /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
 __assert_func                                     .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_panic.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/log/liblog.a(log_noos.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.o)
@@ -4150,17 +4150,17 @@ __assert_func                                     .pio/build/esp32doit-devkit-v1
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-__bswapsi2                                        /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
+__bswapsi2                                        /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_bswapsi2.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-__deregister_frame_info                           /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
-__divdi3                                          /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
+__deregister_frame_info                           /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+__divdi3                                          /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_divdi3.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o)
-__dso_handle                                      /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+__dso_handle                                      /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
 __getreent                                        .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
-__register_frame_info                             /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
-__udivdi3                                         /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
+__register_frame_info                             /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crtbegin.o
+__udivdi3                                         /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/libgcc.a(_udivdi3.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o)
@@ -4172,13 +4172,13 @@ _data_end                                         .pio/build/esp32doit-devkit-v1
 _data_start                                       .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_esp32.o)
 _dram_end                                         .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
 _dram_start                                       .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
-_fini                                             /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
-_global_impure_ptr                                /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
+_fini                                             /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+_global_impure_ptr                                /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-impure.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/main/libmain.a(bootloader_start.o)
-_init                                             /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
+_init                                             /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/no-rtti/crti.o
 _loader_text_end                                  .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
 _loader_text_start                                .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
-_start                                            /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+_start                                            /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
 abort                                             .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_panic.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.o)
@@ -4452,18 +4452,18 @@ g_rom_spiflash_chip                               .pio/build/esp32doit-devkit-v1
 g_rom_spiflash_dummy_len_plus                     .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash_config_esp32.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-main                                              /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
-memcmp                                            /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
+main                                              /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/crt0.o
+memcmp                                            /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcmp.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
-memcpy                                            /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
+memcpy                                            /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memcpy.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common_loader.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
-memset                                            /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
+memset                                            /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-memset.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.o)
@@ -4542,13 +4542,13 @@ rtc_vddsdio_set_config                            .pio/build/esp32doit-devkit-v1
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
 soc_hal_stall_core                                .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o)
 soc_hal_unstall_core                              .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a(cpu_util.o)
-strcspn                                           /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
+strcspn                                           /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strcspn.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
-strlen                                            /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
+strlen                                            /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strlen.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
-strncpy                                           /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
+strncpy                                           /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strncpy.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
-strstr                                            /home/iuri/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
+strstr                                            /home/sudjoao/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/no-rtti/libc.a(lib_a-strstr.o)
                                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.o)
 uart_div_modify                                   .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.o)
 wdt_hal_config_stage                              .pio/build/esp32doit-devkit-v1/bootloader/esp-idf/hal/libhal.a(wdt_hal_iram.o)

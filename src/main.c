@@ -35,8 +35,8 @@ void trataComunicacaoComServidor(void * params)
     while(true)
     {
        float temperatura = 20.0 + (float)rand()/(float)(RAND_MAX/10.0);
-       sprintf(mensagem, "temperatura1: %f", temperatura);
-       mqtt_envia_mensagem("sensores/temperatura", mensagem);
+       sprintf(mensagem, "{\"temperatura\": %f", temperatura);
+       mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
        vTaskDelay(3000 / portTICK_PERIOD_MS);
     }
   }

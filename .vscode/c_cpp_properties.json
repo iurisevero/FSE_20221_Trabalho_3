@@ -1,8 +1,3 @@
-//
-// !!! WARNING !!! AUTO-GENERATED FILE!
-// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
-// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
-//
 {
     "configurations": [
         {
@@ -269,7 +264,8 @@
             "compilerArgs": [
                 "-mlongcalls",
                 ""
-            ]
+            ],
+            "compileCommands": "${workspaceFolder}/.pio/build/esp32doit-devkit-v1/compile_commands.json"
         }
     ],
     "version": 4

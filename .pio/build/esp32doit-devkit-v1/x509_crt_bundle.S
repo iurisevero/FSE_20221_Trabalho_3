@@ -1,4 +1,4 @@
-/* * Data converted from /home/iuri/Desktop/semestre_10/FSE/FSE_20221_Trabalho_3/.pio/build/esp32doit-devkit-v1/x509_crt_bundle
+/* * Data converted from /home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/build/esp32doit-devkit-v1/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

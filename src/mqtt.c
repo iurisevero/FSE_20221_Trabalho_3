@@ -20,6 +20,7 @@
 #include "mqtt_client.h"
 
 #include "mqtt.h"
+#include "json_utils.h"
 
 #define TAG "MQTT"
 
@@ -54,6 +55,10 @@ static esp_err_t mqtt_event_handler_cb(esp_mqtt_event_handle_t event)
             ESP_LOGI(TAG, "MQTT_EVENT_DATA");
             printf("TOPIC=%.*s\r\n", event->topic_len, event->topic);
             printf("DATA=%.*s\r\n", event->data_len, event->data);
+            jsmntok_t t[128];
+            int r;
+            r = custom_parse(t, event->data);
+            printf("Method: %s\n", get_value_string(t, event->data, r, "method"));
             break;
         case MQTT_EVENT_ERROR:
             ESP_LOGI(TAG, "MQTT_EVENT_ERROR");

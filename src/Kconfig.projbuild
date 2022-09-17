@@ -1,4 +1,4 @@
-menu "Configuração do Wifi Configuration"
+menu "Wifi Configuration"
 
     config ESP_WIFI_SSID
         string "WiFi SSID"
@@ -17,4 +17,24 @@ menu "Configuração do Wifi Configuration"
         default 5
         help
             Configure o valor máximo de tentativas de conexão.
+endmenu
+
+menu "DPP Configuration"
+    config ESP_DPP_LISTEN_CHANNEL_LIST
+        string "DPP Listen channel list"
+        default "6"
+        help
+            DPP Bootstrapping listen channels separated by commas.
+
+    config ESP_DPP_BOOTSTRAPPING_KEY
+        string "Bootstrapping key"
+        default "0"
+        help
+            64 hex digits (or 32 bytes) of raw private key for DPP Bootstrapping.
+
+    config ESP_DPP_DEVICE_INFO
+        string "Additional Device Info"
+        default ""
+        help
+            Additional ancillary information to be included in QR Code.
 endmenu

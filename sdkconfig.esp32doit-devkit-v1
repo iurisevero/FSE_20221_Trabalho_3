@@ -129,12 +129,20 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
-# Configuração do Wifi Configuration
+# Wifi Configuration
 #
 CONFIG_ESP_WIFI_SSID="ssid"
 CONFIG_ESP_WIFI_PASSWORD="senha"
 CONFIG_ESP_MAXIMUM_RETRY=5
-# end of Configuração do Wifi Configuration
+# end of Wifi Configuration
+
+#
+# DPP Configuration
+#
+CONFIG_ESP_DPP_LISTEN_CHANNEL_LIST="6"
+CONFIG_ESP_DPP_BOOTSTRAPPING_KEY="0"
+CONFIG_ESP_DPP_DEVICE_INFO=""
+# end of DPP Configuration
 
 #
 # Compiler options

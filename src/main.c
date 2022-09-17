@@ -14,10 +14,13 @@
 #include "dht11.h"
 #include "freertos/semphr.h"
 #include "dth11_connection.h"
+#include "sound_connection.h"
 
 #include "wifi.h"
 #include "http_client.h"
 #include "mqtt.h"
+
+#define TEMPERATURE_SENSOR_ACTIVE 1
 
 xSemaphoreHandle conexaoWifiSemaphore;
 xSemaphoreHandle conexaoMQTTSemaphore;
@@ -37,16 +40,22 @@ void conectadoWifi(void *params)
 void trataComunicacaoComServidor(void *params)
 {
   char mensagem[50];
+  int ledStatus = 0;
   if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
   {
     while (true)
     {
-      int temperature, humidity;
-      getTemperatureAndHumidity(&temperature, &humidity);
-      printf("Temperature is %d \n", temperature);
-      printf("Humidity is %d\n", humidity);
-      sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", temperature, humidity);
-      mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
+      if(TEMPERATURE_SENSOR_ACTIVE){
+        int temperature, humidity;
+        getTemperatureAndHumidity(&temperature, &humidity);
+        printf("Temperature is %d \n", temperature);
+        printf("Humidity is %d\n", humidity);
+        sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", temperature, humidity);
+        mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
+      }
+      sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
+      mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
+      ledStatus = !ledStatus;
       vTaskDelay(3000 / portTICK_PERIOD_MS);
     }
   }

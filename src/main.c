@@ -13,6 +13,7 @@
 #include "sdkconfig.h"
 #include "dht11.h"
 #include "freertos/semphr.h"
+#include "dth11_connection.h"
 
 #include "wifi.h"
 #include "http_client.h"
@@ -21,11 +22,11 @@
 xSemaphoreHandle conexaoWifiSemaphore;
 xSemaphoreHandle conexaoMQTTSemaphore;
 
-void conectadoWifi(void * params)
+void conectadoWifi(void *params)
 {
-  while(true)
+  while (true)
   {
-    if(xSemaphoreTake(conexaoWifiSemaphore, portMAX_DELAY))
+    if (xSemaphoreTake(conexaoWifiSemaphore, portMAX_DELAY))
     {
       // Processamento Internet
       mqtt_start();
@@ -33,38 +34,39 @@ void conectadoWifi(void * params)
   }
 }
 
-void trataComunicacaoComServidor(void * params)
+void trataComunicacaoComServidor(void *params)
 {
   char mensagem[50];
-  DHT11_init(GPIO_NUM_18);
-  if(xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
+  if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
   {
-    while(true)
+    while (true)
     {
-        printf("Temperature is %d \n", DHT11_read().temperature);
-        printf("Humidity is %d\n", DHT11_read().humidity);
-        printf("Status code is %d\n", DHT11_read().status);
-       sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", DHT11_read().temperature, DHT11_read().humidity);
-       mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
-       vTaskDelay(3000 / portTICK_PERIOD_MS);
+      int temperature, humidity;
+      getTemperatureAndHumidity(&temperature, &humidity);
+      printf("Temperature is %d \n", temperature);
+      printf("Humidity is %d\n", humidity);
+      sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", temperature, humidity);
+      mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
+      vTaskDelay(3000 / portTICK_PERIOD_MS);
     }
   }
 }
 
 void app_main(void)
 {
-    // Inicializa o NVS
-    esp_err_t ret = nvs_flash_init();
-    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
-      ESP_ERROR_CHECK(nvs_flash_erase());
-      ret = nvs_flash_init();
-    }
-    ESP_ERROR_CHECK(ret);
-    
-    conexaoWifiSemaphore = xSemaphoreCreateBinary();
-    conexaoMQTTSemaphore = xSemaphoreCreateBinary();
-    wifi_start();
+  // Inicializa o NVS
+  esp_err_t ret = nvs_flash_init();
+  if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
+  {
+    ESP_ERROR_CHECK(nvs_flash_erase());
+    ret = nvs_flash_init();
+  }
+  ESP_ERROR_CHECK(ret);
 
-    xTaskCreate(&conectadoWifi,  "Conexão ao MQTT", 4096, NULL, 1, NULL);
-    xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);
+  conexaoWifiSemaphore = xSemaphoreCreateBinary();
+  conexaoMQTTSemaphore = xSemaphoreCreateBinary();
+  wifi_start();
+
+  xTaskCreate(&conectadoWifi, "Conexão ao MQTT", 4096, NULL, 1, NULL);
+  xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);
 }

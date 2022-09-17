@@ -2041,8 +2041,46 @@
             }
         ],
         "depends_on": null,
-        "id": "configura\u00e7\u00e3o-do-wifi-configuration",
-        "title": "Configura\u00e7\u00e3o do Wifi Configuration",
+        "id": "wifi-configuration",
+        "title": "Wifi Configuration",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "DPP Bootstrapping listen channels separated by commas.",
+                "id": "ESP_DPP_LISTEN_CHANNEL_LIST",
+                "name": "ESP_DPP_LISTEN_CHANNEL_LIST",
+                "range": null,
+                "title": "DPP Listen channel list",
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "64 hex digits (or 32 bytes) of raw private key for DPP Bootstrapping.",
+                "id": "ESP_DPP_BOOTSTRAPPING_KEY",
+                "name": "ESP_DPP_BOOTSTRAPPING_KEY",
+                "range": null,
+                "title": "Bootstrapping key",
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Additional ancillary information to be included in QR Code.",
+                "id": "ESP_DPP_DEVICE_INFO",
+                "name": "ESP_DPP_DEVICE_INFO",
+                "range": null,
+                "title": "Additional Device Info",
+                "type": "string"
+            }
+        ],
+        "depends_on": null,
+        "id": "dpp-configuration",
+        "title": "DPP Configuration",
         "type": "menu"
     },
     {

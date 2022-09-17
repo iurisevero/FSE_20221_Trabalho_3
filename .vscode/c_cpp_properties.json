@@ -10,6 +10,9 @@
             "includePath": [
                 "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/include",
                 "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/src",
+                "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/ESP32-DHT11/include",
+                "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/ESP32-DHT11",
+                "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/qrcode generator/c",
                 "/home/sudjoao/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
                 "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/build/esp32doit-devkit-v1/config",
                 "/home/sudjoao/.platformio/packages/framework-espidf/components/newlib/platform_include",
@@ -134,6 +137,9 @@
                 "path": [
                     "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/include",
                     "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/src",
+                    "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/ESP32-DHT11/include",
+                    "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/ESP32-DHT11",
+                    "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/qrcode generator/c",
                     "/home/sudjoao/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
                     "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/build/esp32doit-devkit-v1/config",
                     "/home/sudjoao/.platformio/packages/framework-espidf/components/newlib/platform_include",

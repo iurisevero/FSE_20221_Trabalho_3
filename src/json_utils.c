@@ -82,13 +82,12 @@ void get_response_method(char *response, char *method){
     finalPos++;
   }
   strncpy(method, methodObject+9, finalPos-9);
+  method[finalPos-9] = '\0';
 }
 
 void get_response_params(char *response, char *params){
   char* paramsObject = strstr(response, "params");
-  int finalPos = 8;
-  while(paramsObject[finalPos] != '}'){
-    finalPos++;
-  }
-  strncpy(params, paramsObject+8, finalPos-8);
+  printf("O tamanho da substring é %d\n", strlen(paramsObject));
+  strncpy(params, paramsObject+8, strlen(paramsObject)-8);
+  params[strlen(paramsObject)-9] = '\0';
 }

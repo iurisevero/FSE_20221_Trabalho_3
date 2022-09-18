@@ -3,5 +3,6 @@
 
 
 void turn_led(int status);
+void pwm_led();
 
 #endif

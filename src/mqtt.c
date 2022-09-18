@@ -15,7 +15,7 @@
 #include "lwip/sockets.h"
 #include "lwip/dns.h"
 #include "lwip/netdb.h"
-
+#include "utils.h"
 #include "esp_log.h"
 #include "mqtt_client.h"
 
@@ -38,7 +38,7 @@ void handle_mqtt_event_data(esp_mqtt_event_handle_t event)
     sprintf(response, "%.*s", event->data_len, event->data);
     get_response_method(response, method);
     get_response_params(response, params);
-    printf("Event Method: %s\tEvent params: %s\n", method, params);
+    printf("Event Method: %s(%d)\tEvent params: %s(%d)\n", method, strlen(method), params, strlen(params));
     // TODO FIX TIMEOUT
     if (strstr(method, "setTurnLed") != NULL)
     {
@@ -46,7 +46,12 @@ void handle_mqtt_event_data(esp_mqtt_event_handle_t event)
         turn_led(status);
         sprintf(mensagem, "{\"turnLed\": %d}", status);
         mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
-    } 
+    }
+    else if (strstr(method, "setLedIntensity") != NULL)
+    {
+        int led_intensity = atoi(params);
+        LED_PWM_VALUE = led_intensity;
+    }
     // TODO FIND A WAY TO SEND A RESPONSE TO THE TOPIC https://stackoverflow.com/questions/72612361/thingsboard-rpc-knob-request-timeout
     // else if (strstr(method, "getTurnLed") != NULL)
     // {
@@ -61,7 +66,7 @@ void handle_mqtt_event_data(esp_mqtt_event_handle_t event)
     //     sprintf(topic, "TOPIC=%.*s\r\n", event->topic_len, event->topic);
     //     sprintf(mensagem, "%d", status);
     //     mqtt_envia_mensagem(topic, mensagem);
-    // } 
+    // }
 }
 
 static esp_err_t mqtt_event_handler_cb(esp_mqtt_event_handle_t event)

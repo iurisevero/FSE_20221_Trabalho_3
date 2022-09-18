@@ -19,8 +19,9 @@
 #include "wifi.h"
 #include "http_client.h"
 #include "mqtt.h"
+#include "led_connection.h"
 
-#define TEMPERATURE_SENSOR_ACTIVE 1
+#define TEMPERATURE_SENSOR_ACTIVE 0
 
 xSemaphoreHandle conexaoWifiSemaphore;
 xSemaphoreHandle conexaoMQTTSemaphore;
@@ -61,6 +62,14 @@ void trataComunicacaoComServidor(void *params)
   }
 }
 
+void runLedPWM(void *params){
+
+  if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
+  {
+    pwm_led();
+  }
+}
+
 void app_main(void)
 {
   // Inicializa o NVS
@@ -77,5 +86,6 @@ void app_main(void)
   wifi_start();
 
   xTaskCreate(&conectadoWifi, "Conexão ao MQTT", 4096, NULL, 1, NULL);
-  xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);
+  xTaskCreate(&runLedPWM, "PWM LED", 4096, NULL, 1, NULL);
+  // xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);
 }

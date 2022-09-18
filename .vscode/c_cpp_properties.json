@@ -130,6 +130,7 @@
                 "/home/sudjoao/.platformio/packages/framework-espidf/components/spiffs/include",
                 "/home/sudjoao/.platformio/packages/framework-espidf/components/ulp/include",
                 "/home/sudjoao/.platformio/packages/framework-espidf/components/wifi_provisioning/include",
+                "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/Unity/src",
                 ""
             ],
             "browse": {
@@ -257,6 +258,7 @@
                     "/home/sudjoao/.platformio/packages/framework-espidf/components/spiffs/include",
                     "/home/sudjoao/.platformio/packages/framework-espidf/components/ulp/include",
                     "/home/sudjoao/.platformio/packages/framework-espidf/components/wifi_provisioning/include",
+                    "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/.pio/libdeps/esp32doit-devkit-v1/Unity/src",
                     ""
                 ]
             },

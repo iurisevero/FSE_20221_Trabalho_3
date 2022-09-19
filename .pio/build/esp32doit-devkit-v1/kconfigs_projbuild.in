@@ -1,6 +1,0 @@
-source "/home/sudjoao/.platformio/packages/framework-espidf/components/app_update/Kconfig.projbuild"
-source "/home/sudjoao/.platformio/packages/framework-espidf/components/bootloader/Kconfig.projbuild"
-source "/home/sudjoao/.platformio/packages/framework-espidf/components/esp_rom/Kconfig.projbuild"
-source "/home/sudjoao/.platformio/packages/framework-espidf/components/esptool_py/Kconfig.projbuild"
-source "/home/sudjoao/.platformio/packages/framework-espidf/components/partition_table/Kconfig.projbuild"
-source "/home/sudjoao/Documentos/Faculdade/2022.2/FSE/FSE_20221_Trabalho_3/src/Kconfig.projbuild"

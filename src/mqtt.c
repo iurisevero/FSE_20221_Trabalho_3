@@ -24,6 +24,8 @@
 #include "led_connection.h"
 
 #define TAG "MQTT"
+#define MQTT_URI        CONFIG_MQTT_URI
+#define MQTT_USERNAME   CONFIG_MQTT_USERNAME
 
 extern xSemaphoreHandle conexaoMQTTSemaphore;
 esp_mqtt_client_handle_t client;
@@ -119,8 +121,8 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 void mqtt_start()
 {
     esp_mqtt_client_config_t mqtt_config = {
-        .uri = "mqtt://",
-        .username = ""};
+        .uri = MQTT_URI,
+        .username = MQTT_USERNAME};
     client = esp_mqtt_client_init(&mqtt_config);
     esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, client);
     esp_mqtt_client_start(client);

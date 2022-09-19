@@ -23,6 +23,12 @@
 
 #define TEMPERATURE_SENSOR_ACTIVE 0
 
+#ifndef CONFIG_BATTERY_MODE
+#define BATTERY_MODE 0
+#else
+#define BATTERY_MODE 1
+#endif
+
 xSemaphoreHandle conexaoWifiSemaphore;
 xSemaphoreHandle conexaoMQTTSemaphore;
 
@@ -80,6 +86,10 @@ void app_main(void)
     ret = nvs_flash_init();
   }
   ESP_ERROR_CHECK(ret);
+
+  if(BATTERY_MODE){
+    printf("Battery Mode activated\n");
+  }
 
   conexaoWifiSemaphore = xSemaphoreCreateBinary();
   conexaoMQTTSemaphore = xSemaphoreCreateBinary();

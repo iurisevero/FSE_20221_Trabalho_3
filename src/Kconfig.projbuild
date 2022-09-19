@@ -1,5 +1,4 @@
 menu "Wifi Configuration"
-
     config ESP_WIFI_SSID
         string "WiFi SSID"
         default "ssid"
@@ -17,6 +16,27 @@ menu "Wifi Configuration"
         default 5
         help
             Configure o valor máximo de tentativas de conexão.
+endmenu
+
+menu "MQTT Configuration"
+    config MQTT_URI
+        string "Uri para conexão do MQTT"
+        default "mqtt://"
+        help
+            Uri para conexão do MQTT (sem a porta).
+    config MQTT_USERNAME
+        string "Username de acesso ao dispositivo"
+        default "chavedeacesso"
+        help
+            Chave de acesso ao dispositivo, pode ser gerada no ThinksBoard.
+endmenu
+
+menu "Energy/Battery Mode Configuration"
+    config BATTERY_MODE
+        bool "Boleano para definir modo de bateria"
+        default n
+        help
+            Define o dispositivo para modo de bateria, caso contrário estará no modo de energia.
 endmenu
 
 menu "DPP Configuration"

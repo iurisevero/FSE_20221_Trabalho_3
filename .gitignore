@@ -11,3 +11,5 @@ CTestTestfile.cmake
 _deps
 .vscode
 .pio
+sdkconfig.esp32doit-devkit-v1
+sdkconfig.esp32doit-devkit-v1.old

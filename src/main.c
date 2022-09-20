@@ -22,6 +22,7 @@
 #include "led_connection.h"
 
 #define TEMPERATURE_SENSOR_ACTIVE 0
+#define BOTAO_BOOT 0
 
 #ifndef CONFIG_BATTERY_MODE
 #define BATTERY_MODE 0
@@ -44,35 +45,34 @@ void conectadoWifi(void *params)
   }
 }
 
-void trataComunicacaoComServidor(void *params)
+void handleDHT11()
 {
   char mensagem[50];
   int ledStatus = 0;
-  if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
+  while (true)
   {
-    while (true)
+    if (TEMPERATURE_SENSOR_ACTIVE)
     {
-      if(TEMPERATURE_SENSOR_ACTIVE){
-        int temperature, humidity;
-        getTemperatureAndHumidity(&temperature, &humidity);
-        printf("Temperature is %d \n", temperature);
-        printf("Humidity is %d\n", humidity);
-        sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", temperature, humidity);
-        mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
-      }
-      sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
-      mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
-      ledStatus = !ledStatus;
-      vTaskDelay(3000 / portTICK_PERIOD_MS);
+      int temperature, humidity;
+      getTemperatureAndHumidity(&temperature, &humidity);
+      printf("Temperature is %d \n", temperature);
+      printf("Humidity is %d\n", humidity);
+      sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", temperature, humidity);
+      mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
     }
+    sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
+    mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
+    ledStatus = !ledStatus;
+    vTaskDelay(3000 / portTICK_PERIOD_MS);
   }
 }
 
-void runLedPWM(void *params){
-
+void trataComunicacaoComServidor(void *params)
+{
   if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
   {
-    pwm_led();
+    xTaskCreate(&pwm_led, "PWM LED", 4096, NULL, 1, NULL);
+    xTaskCreate(&handleDHT11, "DHT11 Handler", 4096, NULL, 1, NULL);
   }
 }
 
@@ -87,8 +87,32 @@ void app_main(void)
   }
   ESP_ERROR_CHECK(ret);
 
-  if(BATTERY_MODE){
+  checkNVSData();
+
+  while (BATTERY_MODE)
+  {
     printf("Battery Mode activated\n");
+    // Configuração da GPIO para o botão de entrada
+    gpio_pad_select_gpio(BOTAO_BOOT);
+    gpio_set_direction(BOTAO_BOOT, GPIO_MODE_INPUT);
+    // Habilita o botão para acordar a placa
+    gpio_wakeup_enable(BOTAO_BOOT, GPIO_INTR_LOW_LEVEL);
+    esp_sleep_enable_gpio_wakeup();
+
+    // Entra em modo Light Sleep
+    esp_light_sleep_start();
+
+    wifi_start();
+    if (xSemaphoreTake(conexaoWifiSemaphore, portMAX_DELAY))
+    {
+      // Processamento Internet
+      mqtt_start();
+      if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
+      {
+        printf("TODO Correta detecção e envio do estado da entrada ao servidor central\n"); 
+      }
+    }
+
   }
 
   conexaoWifiSemaphore = xSemaphoreCreateBinary();
@@ -96,6 +120,5 @@ void app_main(void)
   wifi_start();
 
   xTaskCreate(&conectadoWifi, "Conexão ao MQTT", 4096, NULL, 1, NULL);
-  xTaskCreate(&runLedPWM, "PWM LED", 4096, NULL, 1, NULL);
-  // xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);
+  xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);
 }

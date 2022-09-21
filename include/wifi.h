@@ -2,6 +2,6 @@
 #ifndef WIFI_H
 #define WIFI_H
 
-void wifi_start();
+void initialise_wifi(char * _ssid, char * _password);
 
 #endif

@@ -20,10 +20,11 @@
 #include "esp_smartconfig.h"
 
 #include "wifi_smart_config.h"
+#include "nvs_rw.h"
+#include "utils.h"
 
 /* FreeRTOS event group to signal when we are connected & ready to make a request */
 static EventGroupHandle_t s_wifi_event_group;
-extern xSemaphoreHandle conexaoWifiSemaphore;
 
 /* The event group allows multiple bits for each event,
    but we only care about one event - are we connected
@@ -31,6 +32,12 @@ extern xSemaphoreHandle conexaoWifiSemaphore;
 static const int CONNECTED_BIT = BIT0;
 static const int ESPTOUCH_DONE_BIT = BIT1;
 static const char *TAG = "smartconfig_example";
+
+extern xSemaphoreHandle conexaoWifiSemaphore;
+
+char confirmed_ssid[33], confirmed_pass[65];
+
+static void smartconfig_example_task(void * parm);
 
 static void event_handler(void* arg, esp_event_base_t event_base,
                                 int32_t event_id, void* event_data)
@@ -41,6 +48,8 @@ static void event_handler(void* arg, esp_event_base_t event_base,
         esp_wifi_connect();
         xEventGroupClearBits(s_wifi_event_group, CONNECTED_BIT);
     } else if (event_base == IP_EVENT && event_id == IP_EVENT_STA_GOT_IP) {
+        write_string_nvs(NVS_NS, NVS_SSID_KEY, confirmed_ssid);
+        write_string_nvs(NVS_NS, NVS_PASWD_KEY, confirmed_pass);
         xEventGroupSetBits(s_wifi_event_group, CONNECTED_BIT);
         xSemaphoreGive(conexaoWifiSemaphore);
     } else if (event_base == SC_EVENT && event_id == SC_EVENT_SCAN_DONE) {
@@ -66,6 +75,8 @@ static void event_handler(void* arg, esp_event_base_t event_base,
 
         memcpy(ssid, evt->ssid, sizeof(evt->ssid));
         memcpy(password, evt->password, sizeof(evt->password));
+        memcpy(confirmed_ssid, ssid, sizeof(ssid));
+        memcpy(confirmed_pass, password, sizeof(password));
         ESP_LOGI(TAG, "SSID:%s", ssid);
         ESP_LOGI(TAG, "PASSWORD:%s", password);
         if (evt->type == SC_TYPE_ESPTOUCH_V2) {
@@ -85,7 +96,7 @@ static void event_handler(void* arg, esp_event_base_t event_base,
     }
 }
 
-static void initialise_wifi(void)
+void initialise_wifi_smart()
 {
     ESP_ERROR_CHECK(esp_netif_init());
     s_wifi_event_group = xEventGroupCreate();
@@ -102,7 +113,6 @@ static void initialise_wifi(void)
 
     ESP_ERROR_CHECK( esp_wifi_set_mode(WIFI_MODE_STA) );
     ESP_ERROR_CHECK( esp_wifi_start() );
-    vEventGroupDelete(s_wifi_event_group);
 }
 
 static void smartconfig_example_task(void * parm)

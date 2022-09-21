@@ -14,9 +14,10 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-#define WIFI_SSID      CONFIG_ESP_WIFI_SSID
-#define WIFI_PASS      CONFIG_ESP_WIFI_PASSWORD
-#define WIFI_MAXIMUM_RETRY  CONFIG_ESP_MAXIMUM_RETRY
+#include "nvs_rw.h"
+#include "utils.h"
+
+#define WIFI_MAXIMUM_RETRY  5
 
 #define WIFI_CONNECTED_BIT BIT0
 #define WIFI_FAIL_BIT      BIT1
@@ -51,7 +52,7 @@ static void event_handler(void* arg, esp_event_base_t event_base,
     }
 }
 
-void wifi_start(){
+void initialise_wifi(char * ssid, char * password){
 
     s_wifi_event_group = xEventGroupCreate();
 
@@ -66,12 +67,12 @@ void wifi_start(){
     ESP_ERROR_CHECK(esp_event_handler_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL));
     ESP_ERROR_CHECK(esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &event_handler, NULL));
 
-    wifi_config_t wifi_config = {
-        .sta = {
-            .ssid = WIFI_SSID,
-            .password = WIFI_PASS
-        },
-    };
+    wifi_config_t wifi_config;
+
+    bzero(&wifi_config, sizeof(wifi_config_t));
+    memcpy(wifi_config.sta.ssid, ssid, sizeof(wifi_config.sta.ssid));
+    memcpy(wifi_config.sta.password, password, sizeof(wifi_config.sta.password));
+
     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA) );
     ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_STA, &wifi_config) );
     ESP_ERROR_CHECK(esp_wifi_start() );
@@ -90,10 +91,12 @@ void wifi_start(){
      * happened. */
     if (bits & WIFI_CONNECTED_BIT) {
         ESP_LOGI(TAG, "connected to ap SSID:%s password:%s",
-                 WIFI_SSID, WIFI_PASS);
+                 ssid, password);
     } else if (bits & WIFI_FAIL_BIT) {
         ESP_LOGI(TAG, "Failed to connect to SSID:%s, password:%s",
-                 WIFI_SSID, WIFI_PASS);
+                 ssid, password);
+        write_string_nvs(NVS_NS, NVS_SSID_KEY, "\0");
+        write_string_nvs(NVS_NS, NVS_PASWD_KEY, "\0");
     } else {
         ESP_LOGE(TAG, "UNEXPECTED EVENT");
     }

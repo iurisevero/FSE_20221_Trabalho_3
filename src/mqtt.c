@@ -20,13 +20,14 @@
 #include "mqtt_client.h"
 
 #include "mqtt.h"
+#include "utils.h"
 #include "json_utils.h"
 #include "led_connection.h"
 #include "nvs_rw.h"
 
 #define TAG "MQTT"
-#define MQTT_URI        CONFIG_MQTT_URI
-#define MQTT_USERNAME   CONFIG_MQTT_USERNAME
+#define MQTT_URI CONFIG_MQTT_URI
+#define MQTT_USERNAME CONFIG_MQTT_USERNAME
 
 extern xSemaphoreHandle conexaoMQTTSemaphore;
 esp_mqtt_client_handle_t client;
@@ -42,35 +43,44 @@ void handle_mqtt_event_data(esp_mqtt_event_handle_t event)
     get_response_method(response, method);
     get_response_params(response, params);
     printf("Event Method: %s(%d)\tEvent params: %s(%d)\n", method, strlen(method), params, strlen(params));
-    // TODO FIX TIMEOUT
     if (strstr(method, "setTurnLed") != NULL)
     {
         int status = strstr(params, "true") != NULL ? 1 : 0;
         turn_led(status);
         sprintf(mensagem, "{\"turnLed\": %d}", status);
         mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
+        sendRequestResponse(event, status);
     }
     else if (strstr(method, "setLedIntensity") != NULL)
     {
         int led_intensity = atoi(params);
         LED_PWM_VALUE = led_intensity;
         write_uint8_t_nvs(NVS_NS, NVS_PWM_KEY, &LED_PWM_VALUE);
+        sendRequestResponse(event, LED_PWM_VALUE);
     }
     // TODO FIND A WAY TO SEND A RESPONSE TO THE TOPIC https://stackoverflow.com/questions/72612361/thingsboard-rpc-knob-request-timeout
-    // else if (strstr(method, "getTurnLed") != NULL)
-    // {
-    //     int status = 1;
-    //     sprintf(topic, "TOPIC=%.*s\r\n", event->topic_len, event->topic);
-    //     sprintf(mensagem, "%d", status);
-    //     mqtt_envia_mensagem(topic, mensagem);
-    // }
-    // else if (strstr(method, "getLedIntensity") != NULL)
-    // {
-    //     int status = 89;
-    //     sprintf(topic, "TOPIC=%.*s\r\n", event->topic_len, event->topic);
-    //     sprintf(mensagem, "%d", status);
-    //     mqtt_envia_mensagem(topic, mensagem);
-    // }
+    else if (strstr(method, "getTurnLed") != NULL)
+    {
+        sendRequestResponse(event, 1);
+    }
+    else if (strstr(method, "getLedIntensity") != NULL)
+    {
+        sendRequestResponse(event, LED_PWM_VALUE);
+    }
+}
+
+void sendRequestResponse(esp_mqtt_event_handle_t event, int new_value)
+{
+    char topic[150];
+    char *requestId;
+    char response[200];
+    char mensagem[50];
+    sprintf(topic, "%.*s", event->topic_len, event->topic);
+    requestId = strstr(topic, "request/") + strlen("request/");
+    printf("Esse é o id:%s\n", requestId);
+    sprintf(response, "v1/devices/me/rpc/response/%s", requestId);
+    sprintf(mensagem, "%d", new_value);
+    mqtt_envia_mensagem(response, mensagem);
 }
 
 static esp_err_t mqtt_event_handler_cb(esp_mqtt_event_handle_t event)

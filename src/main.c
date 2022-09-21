@@ -19,6 +19,7 @@
 #include "esp32/rom/uart.h"
 
 #include "wifi.h"
+// #include "wifi_smart_config.h"
 #include "http_client.h"
 #include "mqtt.h"
 #include "led_connection.h"
@@ -126,6 +127,7 @@ void app_main(void)
   conexaoWifiSemaphore = xSemaphoreCreateBinary();
   conexaoMQTTSemaphore = xSemaphoreCreateBinary();
   wifi_start();
+  // initialise_wifi();
 
   xTaskCreate(&conectadoWifi, "Conexão ao MQTT", 4096, NULL, 1, NULL);
   xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);

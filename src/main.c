@@ -70,7 +70,8 @@ void handleDHT11()
     }
     int shock_impact;
     getDigitalOutput(&shock_impact);
-    printf("O impacto é de: %d\n", shock_impact);
+    sprintf(mensagem, "{\"impacto\": %d}", shock_impact);
+    mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
     vTaskDelay(3000 / portTICK_PERIOD_MS);
   }
   sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
@@ -124,7 +125,9 @@ void app_main(void)
       mqtt_start();
       if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
       {
-        printf("TODO Correta detecção e envio do estado da entrada ao servidor central\n");
+        // char mensagem[50];
+        // sprintf(mensagem, "{\"turnLed\": %d}", 1);
+        // mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
       }
     }
   }

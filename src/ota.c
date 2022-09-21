@@ -1,17 +1,14 @@
-// #include <WiFi.h>
-// #include <WiFiClient.h>
+// // Adaptado de https://www.filipeflop.com/blog/atualizacao-de-software-ota-over-the-air-no-esp32/
+
 // #include <WebServer.h>
 // #include <ESPmDNS.h>
 // #include <Update.h>
+
+// #include "ota.h"
  
 // /* Constantes - conexão wi-fi e webserver */
 // const char* host = "esp32";
-// const char* ssid = " "; /* coloque aqui o nome da rede wi-fi que o ESP32 deve se conectar */
-// const char* password = " "; /* coloque aqui a senha da rede wi-fi que o ESP32 deve se conectar */
- 
-// /* Variáveis globais */
-// int contador_ms = 0;
- 
+
 // /* Webserver para se comunicar via browser com ESP32  */
 // WebServer server(80);
  
@@ -98,26 +95,8 @@
 //  "});"
 //  "</script>";
  
-// void setup(void) 
+// void setup_server(void) 
 // {
-//     Serial.begin(115200);
- 
-//     /* Conecta-se a rede wi-fi */
-//     WiFi.begin(ssid, password);
-//     Serial.println("");
- 
-//     while (WiFi.status() != WL_CONNECTED) 
-//     {
-//         delay(500);
-//         Serial.print(".");
-//     }
-     
-//     Serial.println("");
-//     Serial.print("Conectado a rede wi-fi ");
-//     Serial.println(ssid);
-//     Serial.print("IP obtido: ");
-//     Serial.println(WiFi.localIP());
- 
 //     /* Usa MDNS para resolver o DNS */
 //     if (!MDNS.begin(host)) 
 //     { 
@@ -176,8 +155,11 @@
 //     server.begin();
 // }
  
-// void startServer() 
+// void start_server() 
 // {
-//     server.handleClient();
-//     delay(1);
+//     setup_server();
+//     while(true){
+//         server.handleClient();
+//         delay(1);
+//     }
 // }

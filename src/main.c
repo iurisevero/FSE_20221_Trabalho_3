@@ -23,6 +23,7 @@
 #include "mqtt.h"
 #include "led_connection.h"
 #include "utils.h"
+// #include "ota.h"
 
 #define TEMPERATURE_SENSOR_ACTIVE 0
 #define BOTAO_BOOT 0
@@ -44,6 +45,7 @@ void conectadoWifi(void *params)
     {
       // Processamento Internet
       mqtt_start();
+      // xTaskCreate(&start_server, "OTA Web server", 4096, NULL, 1, NULL);
     }
   }
 }
@@ -72,10 +74,13 @@ void handleDHT11()
 
 void trataComunicacaoComServidor(void *params)
 {
-  if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
+  while(true)
   {
-    xTaskCreate(&pwm_led, "PWM LED", 4096, NULL, 1, NULL);
-    xTaskCreate(&handleDHT11, "DHT11 Handler", 4096, NULL, 1, NULL);
+    if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
+    {
+      xTaskCreate(&pwm_led, "PWM LED", 4096, NULL, 1, NULL);
+      xTaskCreate(&handleDHT11, "DHT11 Handler", 4096, NULL, 1, NULL);
+    }
   }
 }
 

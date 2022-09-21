@@ -14,9 +14,9 @@
 #include "dht11.h"
 #include "freertos/semphr.h"
 #include "dth11_connection.h"
-#include "sound_connection.h"
 #include "esp_sleep.h"
 #include "esp32/rom/uart.h"
+#include "shock_connection.h"
 
 #include "wifi.h"
 // #include "wifi_smart_config.h"
@@ -65,17 +65,24 @@ void handleDHT11()
       printf("Humidity is %d\n", humidity);
       sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", temperature, humidity);
       mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
+      sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
+      mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
+      ledStatus = !ledStatus;
     }
-    sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
-    mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
-    ledStatus = !ledStatus;
+    int shock_impact;
+    getDigitalOutput(&shock_impact);
+    printf("O impacto é de: %d\n", shock_impact);
     vTaskDelay(3000 / portTICK_PERIOD_MS);
   }
+  sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
+  mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
+  ledStatus = !ledStatus;
+  vTaskDelay(3000 / portTICK_PERIOD_MS);
 }
 
 void trataComunicacaoComServidor(void *params)
 {
-  while(true)
+  while (true)
   {
     if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
     {
@@ -83,6 +90,11 @@ void trataComunicacaoComServidor(void *params)
       xTaskCreate(&handleDHT11, "DHT11 Handler", 4096, NULL, 1, NULL);
     }
   }
+}
+
+void runLedPWM(void *params)
+{
+  pwm_led();
 }
 
 void app_main(void)
@@ -118,10 +130,9 @@ void app_main(void)
       mqtt_start();
       if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
       {
-        printf("TODO Correta detecção e envio do estado da entrada ao servidor central\n"); 
+        printf("TODO Correta detecção e envio do estado da entrada ao servidor central\n");
       }
     }
-
   }
 
   conexaoWifiSemaphore = xSemaphoreCreateBinary();
@@ -130,5 +141,6 @@ void app_main(void)
   // initialise_wifi();
 
   xTaskCreate(&conectadoWifi, "Conexão ao MQTT", 4096, NULL, 1, NULL);
+  xTaskCreate(&runLedPWM, "PWM LED", 4096, NULL, 1, NULL);
   xTaskCreate(&trataComunicacaoComServidor, "Comunicação com Broker", 4096, NULL, 1, NULL);
 }

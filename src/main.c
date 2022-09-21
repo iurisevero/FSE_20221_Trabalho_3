@@ -15,11 +15,14 @@
 #include "freertos/semphr.h"
 #include "dth11_connection.h"
 #include "sound_connection.h"
+#include "esp_sleep.h"
+#include "esp32/rom/uart.h"
 
 #include "wifi.h"
 #include "http_client.h"
 #include "mqtt.h"
 #include "led_connection.h"
+#include "utils.h"
 
 #define TEMPERATURE_SENSOR_ACTIVE 0
 #define BOTAO_BOOT 0

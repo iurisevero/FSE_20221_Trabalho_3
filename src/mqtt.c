@@ -54,7 +54,7 @@ void handle_mqtt_event_data(esp_mqtt_event_handle_t event)
     {
         int led_intensity = atoi(params);
         LED_PWM_VALUE = led_intensity;
-        write_uint8_t_nvs(NVS_NS, NVS_PWM_KEY, LED_PWM_VALUE);
+        write_uint8_t_nvs(NVS_NS, NVS_PWM_KEY, &LED_PWM_VALUE);
     }
     // TODO FIND A WAY TO SEND A RESPONSE TO THE TOPIC https://stackoverflow.com/questions/72612361/thingsboard-rpc-knob-request-timeout
     // else if (strstr(method, "getTurnLed") != NULL)

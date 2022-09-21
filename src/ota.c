@@ -1,4 +1,3 @@
-// /*  Programa para ESP32 antes da atualização OTA */
 // #include <WiFi.h>
 // #include <WiFiClient.h>
 // #include <WebServer.h>
@@ -177,16 +176,8 @@
 //     server.begin();
 // }
  
-// void loop() 
+// void startServer() 
 // {
 //     server.handleClient();
 //     delay(1);
- 
-//     contador_ms++;
- 
-//     if (contador_ms >= 1000)
-//     {    
-//         Serial.println("Programa antes da atualizacao OTA");
-//         contador_ms = 0;
-//     }
 // }

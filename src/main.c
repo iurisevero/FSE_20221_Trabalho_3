@@ -18,14 +18,16 @@
 #include "esp32/rom/uart.h"
 #include "shock_connection.h"
 
+#include "nvs_rw.h"
 #include "wifi_helper.h"
 #include "http_client.h"
 #include "mqtt.h"
 #include "led_connection.h"
+#define SHOCK_GPIO_DIGITAL_PORT 19
 #include "utils.h"
 // #include "ota.h"
 
-#define TEMPERATURE_SENSOR_ACTIVE 0
+#define TEMPERATURE_SENSOR_ACTIVE 1
 #define BOTAO_BOOT 0
 
 #ifndef CONFIG_BATTERY_MODE
@@ -53,7 +55,9 @@ void conectadoWifi(void *params)
 void handleDHT11()
 {
   char mensagem[50];
-  int ledStatus = 0;
+  int ledStatus = 1;
+  sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
+  mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
   while (true)
   {
     if (TEMPERATURE_SENSOR_ACTIVE)
@@ -64,13 +68,16 @@ void handleDHT11()
       printf("Humidity is %d\n", humidity);
       sprintf(mensagem, "{\"temperatura\": %d, \"umidade\": %d}", temperature, humidity);
       mqtt_envia_mensagem("v1/devices/me/telemetry", mensagem);
-      sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
-      mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
-      ledStatus = !ledStatus;
     }
     int shock_impact;
     getDigitalOutput(&shock_impact);
-    sprintf(mensagem, "{\"impacto\": %d}", shock_impact);
+    printf("Value: %d\n", shock_impact);
+    if (shock_impact == 1)
+    {
+      SENSOR_COUNT = (SENSOR_COUNT + 1);
+      write_uint32_t_nvs(NVS_NS, NVS_COUNT_KEY, &SENSOR_COUNT);
+    }
+    sprintf(mensagem, "{\"impacto\": %d, \"impacto_count\": %d}", shock_impact, SENSOR_COUNT);
     mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
     vTaskDelay(3000 / portTICK_PERIOD_MS);
   }
@@ -111,8 +118,10 @@ void app_main(void)
     // Configuração da GPIO para o botão de entrada
     gpio_pad_select_gpio(BOTAO_BOOT);
     gpio_set_direction(BOTAO_BOOT, GPIO_MODE_INPUT);
-    // Habilita o botão para acordar a placa
     gpio_wakeup_enable(BOTAO_BOOT, GPIO_INTR_LOW_LEVEL);
+    gpio_pad_select_gpio(SHOCK_GPIO_DIGITAL_PORT);
+    gpio_set_direction(SHOCK_GPIO_DIGITAL_PORT, GPIO_MODE_INPUT);
+    gpio_wakeup_enable(SHOCK_GPIO_DIGITAL_PORT, GPIO_INTR_LOW_LEVEL);
     esp_sleep_enable_gpio_wakeup();
 
     // Entra em modo Light Sleep
@@ -125,9 +134,9 @@ void app_main(void)
       mqtt_start();
       if (xSemaphoreTake(conexaoMQTTSemaphore, portMAX_DELAY))
       {
-        // char mensagem[50];
-        // sprintf(mensagem, "{\"turnLed\": %d}", 1);
-        // mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
+        char mensagem[50];
+        sprintf(mensagem, "{\"turnLed\": %d}", 1);
+        mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
       }
     }
   }

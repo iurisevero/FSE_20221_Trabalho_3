@@ -3,7 +3,9 @@
 Trabalho desenvolvido a partir do enunciado disponibilizado no [gitlab da disciplina](https://gitlab.com/fse_fga/trabalhos-2022_1/trabalho-3-2022-1)
 
 ## Grupo
+
 Iuri de Souza Severo Alves 17/0145514
+
 João Pedro José Santos da Silva Guedes 17/0013910
 
 ## Compilação

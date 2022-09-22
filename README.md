@@ -21,3 +21,5 @@ Na execução são utilizados dois sensores:
 Após a conexão do Wi-fi e do MQTT, o programa começa a enviar os dados dos sensores para o Dashboard, onde é possível ver os valores de temperatura e umidade tanto em gráficos de tempo quanto apenas o valor atual. O sensor de inclinação é utilizado para somar +1 na variável impact_count.
 
 É possível ativar o modo de Light Sleep a partir do Menuconfig, nesse modo tanto o botão de boot (GPIO0) quanto a ativação do sensor de inclinação despertam a ESP32.
+
+É possível ver a execução do código no seguinte [vídeo](https://youtu.be/mHOlpnBye1c).

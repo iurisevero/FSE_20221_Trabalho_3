@@ -79,12 +79,12 @@ void handleDHT11()
     }
     sprintf(mensagem, "{\"impacto\": %d, \"impacto_count\": %d}", shock_impact, SENSOR_COUNT);
     mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
-    vTaskDelay(3000 / portTICK_PERIOD_MS);
+    vTaskDelay(1000 / portTICK_PERIOD_MS);
   }
   sprintf(mensagem, "{\"turnLed\": %d}", ledStatus);
   mqtt_envia_mensagem("v1/devices/me/attributes", mensagem);
   ledStatus = !ledStatus;
-  vTaskDelay(3000 / portTICK_PERIOD_MS);
+  vTaskDelay(1000 / portTICK_PERIOD_MS);
 }
 
 void trataComunicacaoComServidor(void *params)
